@@ -1,30 +1,37 @@
+//Library RTCModule
+
 #include <SPI.h>
 #include <SD.h>
 #include <RTClib.h>
 
-
+//Library Sensor Ultrasonic
 #include <NewPing.h>
 
-
+//pin yang dipakai oleh sensor
 #define TRIGGER_PIN_1 6
 #define ECHO_PIN_1 6
-
 #define TRIGGER_PIN_2 7
 #define ECHO_PIN_2 7
 
-#define MAX_DISTANCE 400
-
+//pin untuk SD card
 const int chipSelect = 10;
 
+//nilai maximal, jika object melebihi nilai ini akan ditulis "out of range". 
+#define MAX_DISTANCE 400
+
+
+
+//define sensor
 NewPing sensor1(TRIGGER_PIN_1, ECHO_PIN_1, MAX_DISTANCE);
 NewPing sensor2(TRIGGER_PIN_2, ECHO_PIN_2, MAX_DISTANCE);
-
 float distance1, distance2;
+
+//file untuk logging
 File myFile; 
 
+
+//RTCModule yang dipakai
 RTC_DS1307 rtc; 
-
-
 
 void setup() {
   Serial.begin(9600);
