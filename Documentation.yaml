@@ -1,0 +1,20 @@
+info:
+  title: Datalogger 
+  description: Datalogger dengan 2 Sensor Ultrasonic untuk mengukur jarak suatu benda
+  version: 1.0.0
+  
+  library:
+  - url: (https://github.com/arduino/ArduinoCore-avr/tree/master/libraries/SPI)
+    description: Serial Peripheral Interface (SPI) is a synchronous serial data protocol 
+    used by microcontrollers for communicating with one or more peripheral devices quickly over short distances.
+    
+  - url: (https://github.com/arduino-libraries/SD)
+    description: The SD library allows for reading from and writing to SD cards.
+    
+  - url: https://github.com/adafruit/RTClib
+    description: RTC Module Library.
+    
+  - url: https://github.com/microflo/NewPing
+    description: Ultrasonic Sensor Library.
+    
+    
