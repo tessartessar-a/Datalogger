@@ -34,5 +34,13 @@ gambar setelah di jadikan rangkaian:
 ![WhatsApp Image 2022-11-14 at 18 51 28](https://user-images.githubusercontent.com/82990902/201653326-25bc3582-294e-4215-8212-de6e9246113b.jpeg)
 
 
+video ketika sistem di jalankan: 
+
+
+https://user-images.githubusercontent.com/82990902/201662900-cb5082b4-574d-46bb-a92c-58c4ee4f4607.mp4
+
+
+
+
        
 
